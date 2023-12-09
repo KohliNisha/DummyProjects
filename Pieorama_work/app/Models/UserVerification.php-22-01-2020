@@ -1,0 +1,32 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
+
+class UserVerification extends Model
+{
+    public function generate_code()
+	{
+		return substr(str_shuffle("0123456789"), 0, 5);	
+	}	
+	
+	
+	public function check_user_exists($user_id)
+	{
+		$users = DB::table('users')
+			->where('id', '=', $user_id)->get();
+		
+		if(!empty($users[0]))
+		{
+			return 1;
+		}
+		else
+		{
+			return 0;  
+		}
+	}	
+	
+	
+}

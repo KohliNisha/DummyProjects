@@ -1,0 +1,119 @@
+﻿.jtable-bottom-panel span, .jtable-bottom-panel select{
+  color:#000;
+}
+
+.jtable-page-number-next,
+.jtable-page-number-previous,
+.jtable-page-number-last,
+.jtable-page-numberfirst,
+.jtable-page-number
+{
+  padding:10px;
+}
+
+
+div.jtable-main-container > table.jtable {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+div.jtable-main-container > table.jtable > thead {
+  background-color: #fff;
+}
+
+div.jtable-main-container > div.jtable-bottom-panel {
+  background-color: #1CA4D4;
+  color: #333;
+  min-height: 22.900000000000002px;
+  font-size: 13px;
+  border: 1px solid #fff;
+  border-top: solid 1px;
+
+}
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list {
+  margin: 1px 0px 0px 0px;
+  vertical-align: middle;
+}
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list .jtable-page-number,
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list .jtable-page-number-space,
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list .jtable-page-number-first,
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list .jtable-page-number-last,
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list .jtable-page-number-previous,
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list .jtable-page-number-next,
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list .jtable-page-number-active {
+  
+position: relative;
+float: left;
+
+
+background-color: #fff;
+border: 1px solid #ddd;
+margin: 1px;
+padding:7px 10px;
+color: #333;
+}
+
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list .jtable-page-number-disabled:hover {
+  background-color: #fff;
+}
+
+
+div.jtable-main-container > div.jtable-bottom-panel {
+  background-color: rgba(53, 152, 220, 0.41);
+  color: #fff;
+  font-size: 13px;
+  border-top: solid 1px rgba(53, 152, 220, 0.41);
+}
+
+
+div.jtable-main-container > div.jtable-bottom-panel span.jtable-page-info {
+  padding:10px;
+}
+
+
+div.jtable-main-container > div.jtable-title {
+  background-color: #fff;
+  padding-left: 10px;
+  display: none;
+}
+
+div.jtable-busy-message {
+  font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px solid #fff;
+  padding: 5px 5px 5px 58px;
+  color: #333;
+  background: url('loading.gif') no-repeat;
+  background-color: #fff;
+  background-position: 8px;
+}
+
+div.jtable-main-container > table.jtable > thead th{
+  color:#333;
+  padding: 5px 0px ; 
+  font-weight: bold;
+  font-size: 13px;
+}
+
+
+div.jtable-main-container > table.jtable > tbody td{
+  color:rgba(51, 51, 51, 0.75);
+  font-weight: 400;
+  padding:3px;
+  font-size: 11px;
+}
+
+div.filtering {
+    background-color: rgba(238, 238, 238, 0.44);
+    border: 1px solid rgba(153, 153, 153, 0.24);
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+
+div.jtable-main-container > table.jtable > tbody > tr:hover {
+  background-color: rgba(53, 152, 220, 0.1);
+}
+
+

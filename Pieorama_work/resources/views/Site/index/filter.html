@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  	<title>PieOrama</title> 
+
+  	<!-- font-awesome -->
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  	<!-- slick-css -->
+  	<link rel="stylesheet" href="css/slick.css">
+  	<!-- scroll-bar-css -->
+  	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+  	<!-- bootstrap css -->
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+  	<!-- style css -->
+  	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="bg-white">
+	<header>
+		<div class="container-fluid">
+			<div class="d-flex justify-content-between align-items-center">
+				<div class="d-flex align-items-center">
+					<div class="hamburger" onclick="myFunction(this)">
+						<div class="bar_1"></div>
+						<div class="bar_2"></div>
+						<div class="bar_3"></div>
+					</div>
+					<div class="logo">
+						<a href="index.html">
+							<img src="images/logo.png" alt="Logo">
+						</a>
+					</div>
+					<div class="search_br transition">
+						<input type="text" placeholder="Search">
+						<div class="h-search-btn">
+							<img src="images/search.png" alt="image">
+						</div>
+						<!-- Auto serarch popup -->
+						<div class="autosearch-popup">	
+							<ul>
+								<li>
+									<a href="javaScript:;">lorem ipsum</a>
+								</li>
+								<li>
+									<a href="javaScript:;">lorem ipsum</a>
+								</li>
+								<li>
+									<a href="javaScript:;">lorem ipsum</a>
+								</li>
+								<li>
+									<a href="javaScript:;">lorem ipsum</a>
+								</li>
+							</ul>						
+						</div>
+						<!-- Auto serarch popup end-->
+					</div>
+				</div>
+				<div class="d-flex align-items-center">
+					<div class="h_links transition">
+						<ul>
+							<li>
+								<a href="about-us.html" class="transition">About Pieorama</a>
+							</li>
+							<li>
+								<a href="pie-history.html" class="transition">A Bit of Pie History</a>
+							</li>
+						</ul>
+						<i class="fas fa-times"></i>
+					</div>
+					<div class="mb_srch_bar">
+						<i class="fas fa-search"></i>
+					</div>
+					<div class="mb_slide">
+						<i class="fas fa-ellipsis-v"></i>
+					</div>
+					<div>
+						<ul class="h_icons">
+							<li>
+								<a href="javascript:;">
+									<img src="images/list.png" alt="images">
+								</a>
+							</li>
+							<li>
+								<a href="notifications.html" class="notifi-icon">	
+									<span class="pend-notifi" style="display: none;">0</span>
+								</a>								
+							</li>
+							<li>
+								<a class="name dropdown-toggle " href="javascript:;" data-toggle="dropdown">
+									<span class="h_unfl">C</span>
+									<img src="images/user-image2.png" alt="" class="h_prof-image">
+								</a>
+								<div class="dropdown-menu">
+							      <a class="dropdown-item" href="my-profile.html">My Profile</a>
+							      <a class="dropdown-item" href="my-pieorama-friends.html">My Pieorama Friends</a>
+							      <a class="dropdown-item" href="javascript:;">Setting</a>
+							     <a class="dropdown-item" href="before-login.html">Logout</a>
+							    </div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- left-panel -->
+
+	<div class="left_panel mCustomScrollbar" data-mcs-theme="light-thick">
+		<ul>
+			<li>
+				<a href="index.html">
+					<div class="icon"></div>
+					<div class="txt">Home</div>
+				</a>
+			</li>
+			<li>
+				<a href="channel.html">
+					<div class="icon icon2"></div>
+					<div class="txt">Pieable Moments</div>
+				</a>
+			</li>
+			<li>
+				<a href="channel.html">
+					<div class="icon icon3"></div>
+					<div class="txt">Trending</div>
+				</a>
+			</li>
+			<li>
+				<a href="channel.html">
+					<div class="icon icon5"></div>
+					<div class="txt">Just 4 Fun</div>
+				</a>
+			</li>
+			<li>
+				<a href="channel.html">
+					<div class="icon icon6"></div>
+					<div class="txt">Media & Politics</div>
+				</a>
+			</li>
+			<li>
+				<a href="channel.html">
+					<div class="icon icon7"></div>
+					<div class="txt">Lifestyle</div>
+				</a>
+			</li>
+			<li>
+				<a href="channel.html">
+					<div class="icon icon8"></div>
+					<div class="txt">Science</div>
+				</a>
+			</li>
+			<li>
+				<a href="channel.html">
+					<div class="icon icon9"></div>
+					<div class="txt">Celebrities</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<!-- right-panel -->
+
+	<div class="right_panel channel-listWarp">
+		<div class="vd_container">
+			<div class="filter-wrapper">
+				<div class="filter-header d-flex  flex-wrap">
+					<h2 id="filter-btn" class="filter-heading filter-icon">Filters</h2>
+				</div>
+				<div class="filter-category-wrap" style="display: none;">
+					<h2 class="filter-heading cate-topheading">Category</h2>
+					<div class="filter-category-list">
+						<ul>
+						  <li>
+						    <label class="custom-checkbox">Pieable moments
+						      <input type="checkbox" checked="checked">
+						      <span class="checkmark"></span>
+						    </label>
+						  </li>
+						  <li>
+						    <label class="custom-checkbox">Lifestyle
+						      <input type="checkbox">
+						      <span class="checkmark"></span>
+						    </label>
+						  </li>
+						  <li>
+						    <label class="custom-checkbox">Trending
+						      <input type="checkbox">
+						      <span class="checkmark"></span>
+						    </label>
+						  </li>
+						  <li>
+						    <label class="custom-checkbox">Science
+						      <input type="checkbox">
+						      <span class="checkmark"></span>
+						    </label>
+						  </li>
+						  <li>
+						    <label class="custom-checkbox">Pieograms
+						      <input type="checkbox">
+						      <span class="checkmark"></span>
+						    </label>
+						  </li>
+						  <li>
+						    <label class="custom-checkbox">Celebrities
+						      <input type="checkbox">
+						      <span class="checkmark"></span>
+						    </label>
+						  </li>
+						  <li>
+						    <label class="custom-checkbox">Just 4 Fun
+						      <input type="checkbox">
+						      <span class="checkmark"></span>
+						    </label>
+						  </li>
+						  <li>
+						    <label class="custom-checkbox">Media & politics
+						      <input type="checkbox">
+						      <span class="checkmark"></span>
+						    </label>
+						  </li>
+						</ul>
+					</div>
+				</div>
+				<div class="category-list-wrappers">
+					<div class="row mt-30">
+						<div class="col-xl-3 col-lg-4">
+							<div class="vid_bx">
+								<img src="images/cate-image-1.png" alt="image" class="poster">
+					    			<span class="play_icon">
+					    				<img src="images/play.png" alt="images">
+					    			</span>
+							</div>
+						</div>
+						<div class="col-xl-9 col-lg-8">
+							<div class="category-vid-cont">
+								<h2 class="cate-vid-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+								<p class="cate-vid-about">This is the pieogram description... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+								</p>
+								<ul class="vid-other-details">
+									<li>10 March 2019</li>
+									<li>10:30PM</li>
+									<li>19M <span>views</span></li>
+								</ul>
+								<p class="vid-tag">Watch #Trending #Sports, #VarunTej, #Tamannah, #Mehreen,</p>
+							</div>
+						</div>
+					</div>
+					<div class="row mt-30">
+						<div class="col-xl-3 col-lg-4">
+							<div class="vid_bx">
+								<img src="images/cate-image-1.png" alt="image" class="poster">
+					    			<span class="play_icon">
+					    				<img src="images/play.png" alt="images">
+					    			</span>
+							</div>
+						</div>
+						<div class="col-xl-9 col-lg-8">
+							<div class="category-vid-cont">
+								<h2 class="cate-vid-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+								<p class="cate-vid-about">This is the pieogram description... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+								</p>
+								<ul class="vid-other-details">
+									<li>10 March 2019</li>
+									<li>10:30PM</li>
+									<li>19M <span>views</span></li>
+								</ul>
+								<p class="vid-tag">Watch #Trending #Sports, #VarunTej, #Tamannah, #Mehreen,</p>
+							</div>
+						</div>
+					</div>
+					<div class="row mt-30">
+						<div class="col-xl-3 col-lg-4">
+							<div class="vid_bx">
+								<img src="images/cate-image-1.png" alt="image" class="poster">
+					    			<span class="play_icon">
+					    				<img src="images/play.png" alt="images">
+					    			</span>
+							</div>
+						</div>
+						<div class="col-xl-9 col-lg-8">
+							<div class="category-vid-cont">
+								<h2 class="cate-vid-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+								<p class="cate-vid-about">This is the pieogram description... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+								</p>
+								<ul class="vid-other-details">
+									<li>10 March 2019</li>
+									<li>10:30PM</li>
+									<li>19M <span>views</span></li>
+								</ul>
+								<p class="vid-tag">Watch #Trending #Sports, #VarunTej, #Tamannah, #Mehreen,</p>
+							</div>
+						</div>
+					</div>
+					<div class="row mt-30">
+						<div class="col-xl-3 col-lg-4">
+							<div class="vid_bx">
+								<img src="images/cate-image-1.png" alt="image" class="poster">
+					    			<span class="play_icon">
+					    				<img src="images/play.png" alt="images">
+					    			</span>
+							</div>
+						</div>
+						<div class="col-xl-9 col-lg-8">
+							<div class="category-vid-cont">
+								<h2 class="cate-vid-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+								<p class="cate-vid-about">This is the pieogram description... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+								</p>
+								<ul class="vid-other-details">
+									<li>10 March 2019</li>
+									<li>10:30PM</li>
+									<li>19M <span>views</span></li>
+								</ul>
+								<p class="vid-tag">Watch #Trending #Sports, #VarunTej, #Tamannah, #Mehreen,</p>
+							</div>
+						</div>
+					</div>
+					<div class="more-cate-list d-flex flex-row-reverse flex-wrap">
+						<p>8+more</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer>
+		<div class="container">
+			<div class="d-flex flex-wrap align-items-center justify-content-between">
+				<div>
+					<a href="index.html">
+						<img src="images/logo-white.png" alt="Logo">
+					</a>
+				</div>
+				<div class="footer_links">
+					<ul>
+						<li>
+							<a href="index.html" class="transition active">HOME</a>
+						</li>
+						<li>
+							<a href="privacy-policy.html" class="transition">PRIVACY</a>
+						</li>
+						<li>
+							<a href="terms-of-use.html" class="transition">TERMS OF USE</a>
+						</li>
+						<li>
+							<a href="contact-us.html" class="transition">CONTACT US</a>
+						</li>
+						<li>
+							<a href="get-help.html" class="transition">GET HELP</a>
+						</li>
+					</ul>
+				</div>
+				<div class="social_links">
+					<ul>
+						<li>
+							<a href="javascript:;" class="transition">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="transition">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="transition">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="transition">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="transition">
+								<i class="fab fa-google-plus-g"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/Popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/function.js"></script>
+
+
+</body>
+</html>

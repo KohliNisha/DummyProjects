@@ -1,0 +1,174 @@
+@media only screen and (max-width: 1460px) {
+.banner-left-inner{width: 100%;}
+.banner-left{padding: 10px; height: 650px;}
+.banner-right{height: 650px;}
+.banner-left-cell p{padding-bottom: 25px;}
+.banner-left-cell h4 {font-size: 60px;	line-height: 60px;}
+.banner-left-cell p {font-size: 23px;color: #69707b;padding-bottom: 70px;line-height: 28px;}
+
+}
+
+@media only screen and (max-width: 1179px) {
+.header-right-list > li > a{padding: 5px 8px}
+.banner-left-cell h4{font-size:53px; line-height: 55px;}
+.banner-left-cell p{font-size: 23px;line-height: 26px;padding-bottom: 7px;}
+.ghc-home-hd h4{font-size: 26px;}
+.ghc-home-hd p{font-size: 18px;}
+.cicle-lay h4 {font-size: 26px;	padding: 30px 0;}
+.cicle-inline{width: 260px; height: 260px; background-size: 100% 100%;}
+.cicle-inline-cell span{font-size: 16px;}
+.cicle-inline-cell label{font-size: 32px;}
+.cicle-inline-cell label img{width: 19px;}
+.loan-small-right{padding-left: 50px; padding-top: 50px;}
+.loan-small-right h4{font-size: 28px;}
+.banner-right{height: 474px;}
+.banner-left{height: 474px;}
+.refer-business-box-con h3{font-size: 17px;}
+}
+
+@media only screen and (max-width: 1023px) {
+	.logo span{display: none;}
+	.contact-left{width: 320px;}
+	.contact-right {width: calc(100% - 325px);}
+	.captacha-row{text-align: center;}
+	.captacha{width: 100%; display: block; margin-bottom: 10px;}
+	.address, .address-right{float: none; width: 100%; padding-left: 0; padding-right: 0;}
+	.address-right{border: 0; margin-top: 10px;}
+	.banner-left {height: auto;width: 100%;	padding: 30px 10px;}
+	.banner-right{height: 400px;width: 100%;}
+	.banner-left-cell h4 {font-size: 38px;line-height: 45px;}
+	.banner-left-cell h4 br, .banner-left-cell p br{display: none;}
+	.banner-left-cell p{font-size: 20px;}
+	.loan-small-left {	width: 272px;	float: left;}
+	.loan-small-right {   width: calc(100% - 272px);}
+	.loan-small-right p {color: #69707b;font-size: 15px;font-family: 'maison_neuemedium';padding-bottom: 0;}
+	.calculator-lay-right ul li{padding: 20px!important;}
+	.calculator-lay-right .amounttxt{font-size: 15px;}
+	.calculator-lay-right .amounttxtfinal span{font-size: 15px; padding: 10px;}
+	.short-small-big .short-small-right{width: 100%; float: none; text-align: center; margin-top: 20px;}
+	.short-small-big  .short-small-left-text { width: 100%; float: none; padding-right: 0px; padding: 0 20px;}
+	.blog-sec-wrap{flex-wrap: wrap;}
+	.blog-box{width: 50%; margin-bottom: 20px;}
+	.we-core{justify-content:center;}
+	.we-core-left{width: 30%; margin: 0 10px; margin-bottom: 20px; }
+	.loan-text {
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.contact-left{width: 100%; float: none; padding-right: 0; margin-bottom: 25px;}
+	.contact-right {width: 100%; float: none; padding: 10px;}
+	.contact-left .contact-left-panel{margin-bottom: 30px; min-height: auto;padding: 45px 20px 20px 20px;}
+	.contact-left .contact-left-panel h4{font-size: 20px; margin-bottom: 5px;}
+	.form-hd{font-size: 20px; margin-bottom: 15px;}
+	.form-col.half{width: 100%; float: none; margin-bottom: 20px;}
+	.footer-box1, .footer-box2, .footer-box3, .footer-box{width: 100%; float: none; padding-right: 0; margin-bottom: 20px;}
+	.top-fotter{padding-bottom: 0;}
+	.bot-fotter-left{float: none; text-align: center;}
+	.bot-fotter-right{float: none; text-align: center; margin-top: 10px;}
+	.bot-fotter-right ul > li{float: none; display: inline-block;}
+	.logo img{width: 130px;}
+	.getapp{top: 2px; right: 37px; font-size: 11px; padding: 0px 16px; line-height: 30px;margin-top: 3px;}
+	.header-right-list{position: absolute; display: none; background: #fff; top:100%; top: 52px; box-shadow: 0 0 10px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);z-index: 10;}
+	.header-right-list > li{float: none;}
+	.header-right-list > li > a{line-height: 25px; font-size: 16px;}
+	.contact-sec{padding: 30px 0;}
+	.contact-hd{font-size: 25px;}
+	.header-right-menu {position: relative;padding-right: 0;width: 148px;}
+	.contact-part{margin-top: 40px;}
+	.mobile-menu{display: inline-block; position: absolute;right: 0;top: 8px;}
+	.banner-left-cell .getapp-fotter a{margin-bottom: 10px; display: inline-block;    max-width: 135px;}
+	.banner-left-cell .getapp-fotter span {font-size: 17px;margin-bottom: 5px;}
+	.banner-left-cell h4 {font-size: 35px;line-height: 38px;}
+	.banner-right {height: 300px;width: 100%;}
+	.ghc-home {	padding: 30px 0;}
+	.ghc-home-hd h4 {font-size: 18px;}
+	.ghc-home-hd p {font-size: 15px;}
+	.cicle-lay h4 {font-size: 19px;	padding: 30px 0;}
+	.cicle-inline.middle{margin: 20px 0;}
+	.loan-small-left{width: 100%; float: none; text-align: center;}
+	.loan-small-right{width: 100%; float: none; padding: 20px 0 0 0;}
+	.loan-small-right .getapp-fotter span{font-size: 17px;}
+	.loan-small-right .getapp-fotter a{display: block; margin-bottom: 10px;}
+	.loan-home, .short-home, .loan-cal{padding: 30px 0;}
+	.loan-text {font-size: 20px;color: #040707;line-height: 27px;font-family: 'maison_neuebold';}
+	.loan-text a{display: inline-block; margin-left: 0; margin-top: 10px; font-size: 16px; padding: 5px 25px;}
+	.short-small-left {	width: 100%; margin-bottom: 20px;	padding-right: 0;	float: none;	padding-top: 0;}
+	.short-small-left h4{font-size: 19px;}
+	.short-small-left ul li{font-size: 16px; background-size:15px; background: url('../images/white-arrow.png') no-repeat left top 4px;}
+	.short-small-right {width: 100%;float: none;}
+	.calculator-home{padding: 30px 0;}
+	.calculator-hd{font-size: 21px; margin-bottom: 30px;}
+	.calculator-lay-left{width: 100%; float: none; padding-right: 0;}
+	.calculator-lay-right{width: 100%; padding-left: 0; margin-top: 20px; float: none;}
+	.time-pay{margin-top: 30px;}
+	.time-duration-left{width: 49%; margin-right: 2%;}
+	.time-duration-left:last-child{margin-right: 0;}
+	.calculator-lay-right .amounttxt{width: 100%; float: none;}
+	.calculator-lay-right .amounttxtfinal{text-align: left; width: 100%; float: none;}
+	.calculator-lay-right ul li {padding: 10px 20px !important;}
+	.calculator-terms{margin-top: 30px;}
+	footer{padding-top: 30px;}
+	.collapse-box .collapse-heading-sec {background: #e4e4e4;padding: 10px 41px 10px 20px;position: relative;}
+	.got-question-btn-wrap{display: none;}
+	.works-flex{flex-wrap: wrap;}
+	.works-flex-lay {text-align: center;width: 100%;padding: 0px; margin-bottom: 25px;}
+	.works-flex-lay h4 {font-size: 16px;font-family: 'maison_neuemedium';color: #000;margin: 15px 0 10px 0;}
+	.works-flex-lay p {font-size: 15px;	line-height: 18px;}
+	.link-lay {margin-top: 0;}
+	.link-lay a{margin: 10px 0 0 0; font-size: 16px;}
+	.short-small-big .short-small-left-text{padding: 0 10px;}
+	.short-small-left-text h4{font-size: 22px;}
+	.short-small-left-text .left-text{font-size: 16px;}
+	.reven-list ul li{padding: 20px!important; text-align: center;}
+	.reven-list ul li span{display: block; margin-top: 10px; float: none; text-align: center;}
+	.blog-sec-wrap{flex-wrap: wrap;}
+	.blog-box{width: 100%; margin-bottom: 20px;}
+	.refer-business-box-in{width: 100%; margin-bottom: 10px; padding: 20px;}
+	.refer-business-section h2{font-size: 22px;}
+	.refer-business-box {padding: 10px 0px 20px 0;}
+	.get-approved-loan-btn-wrap .get-approved-loan-btn{margin-bottom: 10px;}
+	.refer-business-box-con{padding: 3px 0px 15px 15px;}
+	.resources h4 {	margin-bottom: 10px; font-size: 18px;}
+	.we-exit-left{width: 100%; margin-bottom: 20px;padding: 30px 20px;}
+	.we-exit-left h4{font-size: 25px; margin-top: 30px;}
+	.we-exit-left p{font-size: 16px;}
+	.calculator-home-text p {font-size: 14px;line-height: 22px;text-align: center; }
+	.Platform-list{margin-top: 0;}
+	.Platform-list-flex{width: 100%; padding: 20px 15px 25px 15px !important;}
+	.why-hd{font-size: 22px; margin-bottom: 30px;}
+	.core-home, .loan-home-pad{padding: 30px 0;}
+	.we-core-left{width: 100%; margin: 0 0 10px 0;}
+	.we-core-left h4{font-size: 18px; }
+	.get-approved-loan p.tac {font-size: 16px;margin-top: 25px;}
+	.team-flex-list{width: 100%; margin-bottom: 15px;}
+	.main-con{padding-top: 64px;}
+	.header-right-list > li > a::after{display:none!important;}
+	.calculator-lay-left .ui-state-default, .calculator-lay-left .ui-widget-content .ui-state-default {
+		border: 0;
+		background: url('/images/images/slider-btn.png') 0 0 no-repeat;
+			background-size: auto auto;
+		width: 25px;
+		height: 25px;
+		top: -10px;
+		background-size: 100% 100%;
+	}
+	.captacha-row {
+		text-align: left !important;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	.popupOuter{width: 90%;}
+	.popupBox{padding: 20px 10px;}
+	.getapp-pop span{font-size: 20px;}
+	.getapp-pop .getapp-fotter a img{max-width:125px;}
+	.getapp-pop .getapp-fotter{margin-top: 20px;}
+	.loan-small-left img {max-width: 50%;} 
+	.short-small-right img {max-width: 50%;} 
+	.short-small-right {text-align:center}
+	.calculator-lay-left .ui-widget.ui-widget-content{width: 90%;margin: 0 auto;}	 
+	}
+	
+	 

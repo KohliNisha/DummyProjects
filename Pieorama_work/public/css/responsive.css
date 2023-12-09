@@ -1,0 +1,418 @@
+@media only screen and (max-width: 1169px) {
+.container {padding:0 10px;}
+.bannerCon .container {height:500px;}
+.bannerTxt {bottom:40px; font-size:30px; line-height:38px;}
+.bannerBtn {bottom:40px;}
+.bannerBtn a {font-size:19px; padding:15px 40px;}
+.pt60 {padding-top:30px;}
+.pb60 {padding-bottom:30px;}
+.padd30 {padding:20px;}
+.mainHd {font-size:24px; padding-bottom:15px;}
+.trendingCampaigns {margin:-10px;}
+.trendingCampaigns li {padding:10px;}
+.box {border:1px solid #fafafa; -moz-box-shadow:2px 2px 20px rgba(0,0,0,.1); -webkit-box-shadow:2px 2px 20px rgba(0,0,0,.1)); box-shadow:2px 2px 20px rgba(0,0,0,.1);}
+.box:hover {border:1px solid #6188ff;}
+.campaignsName {font-size:16px;}
+.content {font-size:14px; color:rgba(26,26,26,.6);}
+.raised {font-size:16px;}
+.raised span {font-size:18px;}
+a.yellowBtn {font-size:16px; padding:10px 35px;}
+.latestCampaigns {margin:-10px;}
+.latestCampaigns li {padding:10px;}
+.padd20 {padding:10px;}
+.price {font-size:20px;}
+.howitWork li > div {padding:30px; font-size:16px;}
+.howitWork li > div span {font-size:20px;}
+.availableNow .cen {font-size:18px; line-height:26px;}
+.availableNow .rgt a {margin-left:5px;}
+.availableNow .rgt a img {width:130px;}
+.footerTop {margin:0 -10px;}
+.footColm {padding:40px 10px;}
+.hiwCov .stepDivider {margin-top:-70px;}
+.hiwHd {font-size:20px;}
+
+.dbLogo {padding:10px;}
+.dbHeadRgt {padding-right:10px;}
+.userBox {padding:15px 0; margin-left:10px;}
+a.userLink img {width:40px;}
+a.userLink i {width:16px; height:16px;}
+a.userLink i:before {left:4px; top:7px;}
+a.userLink i:after {left:4px; top:5px;}
+.dbPopup {top:70px;}
+.notificationBox {padding:19px 0; margin-left:10px;}
+a.notificationlink span {width:18px; height:18px; right:4px; top:-1px; font-size:11px; line-height:18px;}
+.dbLinks {padding:18px 0;}
+.dbLinks ul li {padding:3px 10px; font-size:14px;}
+.dashboardSearch {padding:30px 0;}
+.searchInner {padding-right:100px;}
+.searchInner .searchColm .hd {font-size:14px;}
+.searchBy {background-position:10px center; height:35px; padding:0 100px 0 35px;}
+.inputSearch {font-size:13px; padding:8px 0;}
+.searchBy .detect {width:90px; top:5px; font-size:13px; padding:0 40px 0 5px;}
+.searchFor { background-position:10px center; height:35px; padding:0 10px 0 35px;}
+.searchBtnCov {width:100px;}
+.searchBtnCov input {height:35px; font-size:15px;}
+.maindbHd {font-size:20px; padding:12px 0;}
+.userDet {padding:20px 20px 20px 120px; min-height:125px;}
+.userDet img {width:85px; left:20px; top:20px;}
+.userDet .name {font-size:16px;}
+.userDet .email {font-size:13px;}
+.profileLinks {padding:20px 0;}
+.profileLinks li a {padding:12px 20px;}
+.dbRgt {padding:0 0 0 20px;}
+.profileHd {padding:15px 20px; font-size:16px;}
+.profileSubHd {font-size:15px;}
+.editFormInput {font-size:14px;}
+.editFormSelect {font-size:14px;}
+.notificationList li {padding:20px 20px 20px 100px; min-height:104px; font-size:15px;}
+.notificationList li .imgBox {left:20px; top:20px;}
+.notificationList li .dateTime {font-size:13px;}
+.midInner {padding:20px 0;}
+.donationList li {padding:20px 0;}
+.donationList li .createdBy {padding:0 20px;}
+.donationList li .donatedBy {padding:0 20px;}
+.donationList li .amount {padding:0 20px;}
+.donationList li .amount .price {font-size:24px;}
+.donationList li .by span {font-size:16px;}
+.donationList li .name {font-size:16px;}
+.donationList li .time {min-width:85px;}
+.donationList li .transactionId {font-size:15px;}
+.check {width:18px; height:18px;}
+.check i {font-size:8px;}
+
+.choosePayment {font-size:16px;}
+.chooseBox a {font-size:14px;}
+.chooseBox a i {font-size:36px;}
+.bankInfoRgt {padding-left:20px;}
+.paymentInfoBox {padding:20px;}
+.paymentHd {font-size:18px;}
+.cardFieldHd {font-size:14px;}
+}
+
+@media only screen and (max-width: 999px) {
+.menuLink li {font-size:16px; padding:30px 30px 0 0;}
+.logo {padding:10px 10px 0 10px;}
+.logo img {max-width:160px;}
+.topRgt ul li {font-size:16px; padding:30px 0 0 30px;}
+a.showSearch {font-size:20px;}
+.bannerCon .container {height:400px;}
+.bannerTxt {bottom:20px; font-size:24px; line-height:32px;}
+.bannerBtn {bottom:20px;}
+.bannerBtn a {font-size:16px; padding:12px 30px;}
+.pt60 {padding-top:20px;}
+.pb60 {padding-bottom:20px;}
+.trendingCampaigns {margin:-5px;}
+.trendingCampaigns li {padding:5px;}
+a.yellowBtn {font-size:15px; padding:10px 25px;}
+.latestCampaigns {margin:-5px;}
+.latestCampaigns li {padding:5px;}
+.howitWork li > div {padding:20px;}
+.subscribeBox {margin-top:20px; padding-right:150px;}
+.subscribeInput {padding:12px 12px 12px 40px;}
+.subscribeBox .name  {width:35%; float:left; padding-right:10px;}
+.subscribeBox .email  {width:65%; float:left; padding-right:10px;}
+.name .subscribeInput {background-position:10px center;}
+.email .subscribeInput {background-position:10px center;}
+.subscribeBtn {width:150px; border:none; font-size:16px;}
+.availableNow .lft {font-size:18px;}
+.availableNow .lft span {font-size:22px;}
+.availableNow .lft span img {width:120px;}
+.availableNow .cen {font-size:16px; line-height:22px;}
+.availableNow .rgt {padding:10px 0 0 0;}
+.availableNow .rgt a img {width:100px;}
+.footColm {padding:20px 10px;}
+.footHd {font-size:14px;}
+.footMenu li {font-size:13px;}
+.footMenu li a:before {top:7px;}
+.socialLink li {font-size:14px;}
+.socialLink li a i {top:2px;}
+.copy {padding:10px 0 5px 0; float:none; text-align:center; width:100%;}
+.footLink {padding:0 0 5px 0; float:none; text-align:center; width:100%;}
+.flexsin {float:none; padding:0 0 10px 0; width:100%; text-align:center;}
+.close {font-size:18px;}
+.popupBox .popupInner {min-height:700px; padding:30px;}
+.popupHd {font-size:30px; padding-bottom:15px;}
+.rem {font-size:13px;}
+a.fp {font-size:13px;}
+.social li a {width:36px; height:36px; font-size:16px; line-height:36px;}
+.innerBanner .container {padding:120px 0 50px 0; font-size:32px;}
+.contentBox {font-size:14px; line-height:24px;}
+.storyList {margin:20px -4px -4px -4px;}
+.storyList li > div {padding:15px;}
+.storyList li .hd {font-size:20px;}
+.storyList li .hd span {font-size:32px; margin-right:5px;}
+.achivementBox .rgt {padding:0 0 0 20px;}
+.achivementHd {font-size:22px; line-height:28px; padding-bottom:10px;}
+.infoList li {font-size:15px;}
+.infoList li .hd {font-size:36px;}
+.infoList li .hd span {font-size:17px;}
+.comment_slider .hd {font-size:20px;}
+.comment_slider .name {font-size:14px;}
+.whtBox {padding:20px;}
+.contactForm {width:50%; padding:10px 40px 10px 0;}
+.contactInfo {width:50%; padding:20px 20px 100px 20px;}
+.addressList {padding:20px 0 0 0;}
+.addressList li {min-height:40px; font-size:15px; padding:0 0 0 60px; line-height:22px;}
+.addressList li .icon {width:45px; height:45px;}
+.map iframe {height:250px;}
+.faqList li {padding:10px;}
+.faqList li .q {font-size:16px;}
+.faqList li .ans {font-size:14px;}
+.subHd {font-size:20px;}
+.bulletList li:after {top:15px;}
+.newsletterLft {width:65%; padding-right:20px;}
+.newsList > li {margin-bottom:20px;}
+.newsSocial {right:10px; top:10px;}
+.newsSocial li a {width:30px; height:30px; font-size:16px; line-height:30px;}
+.newsDet {padding:10px;}
+.newsHd {font-size:18px; padding-bottom:5px;}
+.user {font-size:13px;}
+.date {font-size:13px;}
+a.blueBtn {font-size:14px; padding:9px 25px;}
+.newsletterRgt {width:35%;}
+.nlRgtHd span {font-size:18px;}
+.latestNews li {min-height:60px; padding-left:75px; font-size:14px;}
+.latestNews li .lnImg {width:60px;}
+.hiwCov {padding-top:60px !important; padding-bottom:60px !important;}
+.hiwCov .stepDivider {height:100px; margin-top:-30px;}
+.hiwHd {font-size:20px; padding-bottom:30px;}
+.hiwHd span {display:inline;}
+.step1 li {width:47%;}
+.step1 li .txt {font-size:14px; line-height:24px;}
+.stepBar {width:220px;}
+.stepPrice {width:80px; color:#747272; font-size:18px;}
+.stepTxt {width:180px; font-size:14px;}
+.userDet {padding:10px 10px 10px 85px; min-height:85px;}
+.userDet img {width:65px; top:10px; left:10px;}
+.userDet .name {font-size:14px;}
+.userDet .email {font-size:12px;}
+.profileLinks {padding:10px 0;}
+.profileLinks li {font-size:14px;}
+.profileLinks li a {padding:10px;}
+.dbRgt {width:68%; float:left; padding:0 0 0 10px;}
+.profileHd {padding:10px;}
+.dbRgt .padd30 {padding:10px;}
+.profileSubHd {padding-bottom:10px;}
+.uploadBox {width:65px;}
+.uploadBox .browse { background-size:12px; width:26px; height:26px; right:-12px; bottom:10px;}
+.notificationList li {padding:10px 10px 10px 70px; min-height:70px;}
+.notificationList li .imgBox {width:50px; height:50px; left:10px; top:10px; font-size:22px; line-height:50px;}
+.yellowSelect {width:160px;}
+.priceFilterBox {width:210px;}
+
+.detTopRgt {width:55%; padding:0 0 0 20px; float:right;}
+.detSubHd {font-size:18px;}
+.dontateBtnCov {padding-top:20px;}
+a.donateBtn {font-size:15px; min-width:160px;}
+.shareCon .lft span {font-size:16px;}
+.shareCon .rgt a {font-size:14px;}
+.signupForm {padding:20px;}
+}
+
+@media only screen and (min-width: 768px) {
+.menuLink  {height:auto !important; display:block !important;}
+.footMobBox {height:auto !important; display:block !important;}
+.dbLinks ul {height:auto !important; display:block !important;}
+}
+
+@media only screen and (max-width: 767px) {
+.searchCon {border-bottom:1px solid #333;}
+.searchBox {padding-right:50px;}
+.searchInput {padding:10px;}
+.searchBtn {width:49px;}
+header {position:relative; background:#000;}
+.logo {padding:10px 10px 0 10px; float:none; width:100%;}
+.menu {float:none; width:auto; position:absolute; right:10px; bottom:10px; z-index:100;}
+a.showMobMenu {display:block; width:40px; height:28px; background:#ffc72c; border-radius:2px; padding-top:7px;}
+a.showMobMenu i {display:block; background:#333; width:20px; height:2px; margin:0 auto 4px auto; -webkit-transition:ease-in-out .3s; -moz-transition:ease-in-out .3s; -ms-transition:ease-in-out .3s; -o-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+a.showMobMenu.active i:nth-child(1) {-moz-transform:rotate(45deg); -webkit-transform:rotate(45deg); transform:rotate(45deg); margin-top:5px;}
+a.showMobMenu.active i:nth-child(2) {-moz-transform:rotate(-45deg); -webkit-transform:rotate(-45deg); transform:rotate(-45deg); margin-top:-5px;}
+a.showMobMenu.active i:nth-child(3) {display:none;} 
+.menuLink {position:absolute; right:0; top:38px; background:#eee; width:200px; border-radius:2px; display:none;}
+.menuLink:before {content:''; border-left:6px solid transparent; border-right:6px solid transparent; border-bottom:6px solid #eee; position:absolute; right:15px; top:-6px;}
+.menuLink li {color:#333; font-size:16px; float:none; padding:0; border-bottom:1px solid #d7d7d7;}
+.menuLink li:last-child {border:none;}
+.menuLink li a {display:block; color:#333; padding:10px 15px; font-weight:500;}
+.menuLink li a:hover {color:#333;}
+.topRgt {float:left; width:auto; padding-bottom:10px;}
+.topRgt ul {float:none;}
+.topRgt ul li {float:right; padding:10px 25px 0 0;}
+.topRgt ul li a:hover {color:inherit;}
+.topRgt ul li a.active {color:#ffc72c;}
+a.showSearch {font-size:17px;}
+.bannerCon .container {height:auto; text-align:center; padding:70px 10px 20px 10px;}
+.bannerTxt {position:static;}
+.bannerBtn {position:static; padding-top:20px;}
+.bannerBtn a {display:inline-block;}
+.mainHd {font-size:20px;}
+.trendingCampaigns li {float:none; width:100%;}
+.latestCampaigns li {width:50%;}
+.howitWork li {width:50%;}
+.availableNow .lft {float:none; width:100%; text-align:center;}
+.availableNow .lft span {padding-top:2px;}
+.availableNow .cen {float:none; width:100%; padding:10px 0 0 0; text-align:center; font-size:14px; line-height:20px;}
+.availableNow .rgt {float:none; width:100%; padding:20px 0 0 0; text-align:center;}
+.availableNow .rgt a {margin:0 5px;}
+.availableNow .rgt a img {width:130px;}
+.footerTop {margin:0 -10px;}
+.footColm {float:none; width:100%; padding:1px 10px 0 10px;}
+.footColm.colm1 {text-align:center; padding:10px;}
+.footHd {background:#333; color:#fff; padding:10px 15px; position:relative;}
+.footHd:before {content:''; background:#fff; width:10px; height:2px; position:absolute; top:20px; right:15px;}
+.footHd:after {content:''; background:#fff; width:2px; height:10px; position:absolute; top:16px; right:19px;}
+.footHd.active:after {display:none;}
+.footMenu {padding:10px 0 10px 15px;}
+.socialLink  {padding:10px 0 10px 15px;}
+.footMobBox {display:none;}
+.popupBox:before {display:none;}
+.popupBox .popupInner {min-height:inherit; width:100%; margin-left:0; padding:20px;}
+.popupHd {font-size:24px;}
+.formField {padding-bottom:15px;}
+.formBtn {font-size:17px;}
+.innerBanner .container {padding:20px 10px; font-size:24px;}
+.storyList li {width:100%; float:none;}
+.achivementBox {display:block;}
+.achivementBox .lft {-webkit-flex-basis: 100%; flex-basis: 100%;}
+.achivementBox .rgt {-webkit-flex-basis: 100%; flex-basis: 100%; padding:20px 0 0 0;}
+.achivementHd {font-size:18px; line-height:24px;}
+.thumb_slider li .item img {padding:10px;}
+.thumb_slider li.slick-center .item img {padding:5px;}
+.thumb_slider {width:80%; max-width:320px; margin:auto;}
+.thumb_slider .slick-arrow.slick-prev {left:-25px;}
+.thumb_slider .slick-arrow.slick-next {right:-25px;}
+.comment_slider {padding:10px 0 0 0;}
+.comment_slider .hd {font-size:18px;}
+.comment_slider .contentBox {padding-bottom:10px;}
+.contactForm {width:100%; padding:0 0 20px 0;}
+.contactInfo {width:100%; padding:15px 15px 80px 15px;}
+.map iframe {height:200px;}
+.faqList li .q {font-size:15px;}
+.faqList li .q:before {top:0px;}
+.subHd {font-size:17px;}
+.newsletterLft {float:none; width:100%; padding:0 0 20px 0;}
+.newsletterRgt {float:none; width:100%;}
+.formInput {padding:10px;}
+.formSelect {padding:9px 20px 9px 6px; background-size:10px; background-position:right 5px center;}
+.popupSmllBox {max-width:500px; padding:20px;}
+.formBtnSmll {font-size:14px; min-width:110px; padding:8px 20px;}
+.otpHd {font-size:18px;}
+.ml10 {margin-left:5px;}
+.resendBtn {font-size:14px; min-width:110px; padding:7px 20px;}
+.SuccessBox {padding:10px;}
+.otpInput {padding:10px; width:55px; font-size:14px; margin-right:5px;}
+
+header.dashboardHeader {background:#fff;}
+.dbLogo {padding:10px 10px 0 10px;}
+a.showDbMenu {display:block; background:#000; width:40px; height:30px; border-radius:3px; padding-top:8px;}
+a.showDbMenu i {display:block; width:24px; height:2px; background:#fff; margin:0 auto 4px auto; -webkit-transition:ease-in-out .3s; -moz-transition:ease-in-out .3s; -ms-transition:ease-in-out .3s; -o-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+a.showDbMenu.active i:nth-child(1) {-moz-transform:rotate(45deg); -webkit-transform:rotate(45deg); transform:rotate(45deg); margin:6px auto 0 auto;}
+a.showDbMenu.active i:nth-child(2) {-moz-transform:rotate(-45deg); -webkit-transform:rotate(-45deg); transform:rotate(-45deg); margin:-2px auto 0 auto;}
+a.showDbMenu.active i:nth-child(3) {display:none;}
+.dbLinks {float:right; padding:20px 0 20px 15px; position:relative;}
+.dbLinks ul {display:none; width:200px; background:#f9f9f9; position:absolute; right:0; top:70px; z-index:100; border-radius:3px; -moz-box-shadow:0 0 15px rgba(0,0,0,.2); -webkit-box-shadow:0 0 15px rgba(0,0,0,.2); box-shadow:0 0 15px rgba(0,0,0,.2);}
+.dbLinks ul li {display:block; border-right:none; padding:0; border-bottom:1px solid #e5e5e5;}
+.dbLinks ul li:last-child {border:none;}
+.dbLinks ul li a {display:block; padding:10px 10px 10px 42px; position:relative;}
+.dbLinks ul li a img {position:absolute; left:10px; top:10px; height:20px;}
+.dashboardSearch {padding:15px 0;}
+.searchInner {padding-right:0;}
+.searchInner .searchColm {float:none; width:100%; padding:0 0 10px 0;}
+.searchInner .searchColm .hd {padding-bottom:5px;}
+.searchBtnCov {position:static; width:100%; margin-top:5px;}
+.dbMidCon {min-height:300px;}
+.maindbHd {font-size:17px; padding:10px 0 12px 0;}
+.dbLft {display:none;}
+.dbRgt {float:none; width:100%; padding:0;}
+.cancelBtn {font-size:14px; padding:8px 20px; min-width:110px;}
+.uploadIcon {margin-bottom:20px;}
+.uploadIcon img {width:100px;}
+.browseBox {height:40px; margin:0 auto 20px auto; padding-right:100px;}
+.browseBox #fileName {padding:8px 20px;}
+.browseBtn {width:100px; line-height:38px;}
+.logoutPopupBox {max-width:400px; padding:20px;}
+.profileViewHd {font-size:16px; padding-bottom:10px;}
+.profileViewHd img {width:28px;}
+.fieldAns {font-size:14px;}
+.AmountFilter {float:none; padding:20px 0;}
+.AmountFilter .hd {display:block; padding-bottom:35px;}
+.priceFilterBox {display:block; width:92%; margin-left:0;}
+.filterRgt {float:none; padding:5px 0 20px 0; text-align:right;}
+.yellowSelect {max-width:190px; width:48%;}
+.donationList li {padding:0 10px; margin-bottom:10px; font-size:13px;}
+.donationList li .createdBy {width:100%; border-right:none; border-bottom:1px solid #e5e5e5; padding:10px 0;}
+.donationList li .donatedBy {width:100%; border-right:none; border-bottom:1px solid #e5e5e5; padding:10px 0;}
+.donationList li .amount {width:100%; padding:10px 0; text-align:left; font-size:13px;}
+.donationList li .cAmount {display:inline-block; width:49%;}
+.donationList li .dAmount {display:inline-block; width:49%;}
+.donationList li .amount .price {font-size:20px;}
+.donationList li .by span {font-size:15px;}
+.donationList li .name {font-size:15px;}
+
+.dbWhtBox.padd30 {padding:10px;}
+.bankInfoLft {float:none; width:100%;}
+.chooseBox {margin:0 -1%;}
+.chooseBox a {max-width:220px; font-size:12px; width:48%; float:left; margin:0 1%; padding:20px 10px; margin-top:10px; vertical-align:top;}
+.chooseBox a span {right:5px; top:5px;}
+.bankInfoRgt {float:none; width:100%; padding:20px 0 0 0;}
+.paymentInfoBox {padding:10px;}
+.paymentHd {font-size:16px; padding-bottom:10px;}
+.cardInput {font-size:14px; padding:12px;}
+.cardInput.visa {background-size:30px;}
+.cardSelect {font-size:14px; padding:12px 25px 12px 10px;}
+.infoIcon {position:absolute; right:10px; bottom:12px;}
+
+.detTopLft {float:none; width:100%;}
+.detTopRgt {float:none; width:100%; padding:20px 0 0 0;}
+.detTopRgt .top {min-height:inherit; padding:0; margin-bottom:20px;}
+.detTopRgt .top .detDate {position:static; border-right:none; width:100%; font-size:14px;}
+.detTopRgt .top .detDate span {display:inline-block; width:auto; font-size:24px; line-height:normal;}
+.dontateBtnCov {padding:20px 0 0 0;}
+.shareCon .lft {float:none; padding:20px 0;}
+.shareCon .rgt {float:none; padding:0 0 10px 0;}
+.shareCon .rgt a  {font-size:14px; margin:0 5px 10px 0; padding:8px 15px;}
+.commentCon.padd30 {padding:10px;}
+.commentList li .bx {padding:10px; width:100%; font-size:13px; line-height:20px;}
+
+.signupBox {padding-left:0;}
+.signupImg {position:static; height:400px; width:100%;}
+.signupForm {padding:10px;}
+}
+
+@media only screen and (max-width: 479px) {
+.bannerTxt {font-size:20px; line-height:28px;}              
+.bannerBtn a {font-size:14px; padding:10px 20px;}
+.mainHd {font-size:18px;}
+.campaignsName {font-size:14px;}
+.raised {font-size:14px;}
+.raised span {font-size:16px;}
+.price {font-size:17px;}
+a.yellowBtn {font-size:14px; padding:10px 20px;}
+.howitWork li > div {font-size:15px; font-size:14px;}
+.howitWork li > div span {font-size:16px; padding-bottom:5px;}
+.howitWork li {width:100%; float:none;}
+.subscribeBox {margin-top:10px; padding-right:0;}
+.subscribeBox .name {width:100%; float:none; padding-right:0; margin-bottom:5px;}
+.subscribeBox .email {width:100%; float:none; padding-right:0; margin-bottom:5px;}
+.subscribeBtn {position:static; width:100%; padding:10px;}
+.infoList li {float:none; width:100%; font-size:15px;}
+.infoList li .hd {font-size:30px; display:inline-block; margin-right:10px;}
+.hiwHd {font-size:16px;}.........................
+.step1 li {width:100%; float:none; margin-bottom:20px;}
+.step1 li:nth-child(2n) {float:none; margin-bottom:0;}
+.stepBar {margin:10px auto 0 auto; width:90%; display:block;}
+.stepPrice {width:auto; margin:0 10px 0 0; text-align:right;}
+.stepTxt {width:auto;}
+.step3Box {width:160px; height:160px; margin:70px auto;}
+.step3Box .mid {width:100px;}
+.step3Box .point {width:66px; height:66px; font-size:13px; line-height:16px;}
+.step3Box .point.point1 {top:-70px; margin-left:-33px;}
+.step3Box .point.point2 {right:-70px; top:50%; margin-top:-33px;}
+.step3Box .point.point3 {bottom:-70px; margin-left:-33px;}
+.step3Box .point.point4 {left:-70px; top:50%; margin-top:-33px;}
+.editCountryCode {width:24%;}
+.editPhoneNumber {width:76%;}
+.formField.city {width:100%; padding:0 0 10px 0; float:none;}
+.formField.state {width:100%; padding:0 0 10px 0; float:none;}
+.formField.country {width:100%; float:none;}
+.signupImg {height:300px;}
+}
